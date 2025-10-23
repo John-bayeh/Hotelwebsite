@@ -1,16 +1,44 @@
-# React + Vite
+# Hotel Booking Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **full-stack hotel management system** built with **React**, **TailwindCSS**, **Node.js**, **Express**, and **MongoDB**. This project allows customers to book packages and enables admins to manage bookings, users, and packages efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+### Customer
+- Book **Birthday**, **Wedding**, **Gym**, and **Meeting** packages.
+- Role-based access with **email login**.
+- View booking confirmations and details.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Admin
+- **Dashboard** overview: total bookings, total users, active packages.
+- Manage all bookings: **view, edit, delete** reservations.
+- Manage packages and users.
+- Role-based access: Admin only.
+  
+### Packages
+- Four main package types:
+  - Birthday
+  - Wedding
+  - Gym
+  - Meeting
 
-## Expanding the ESLint configuration
+### Database
+- **MongoDB** for storing users, bookings, and packages.
+  
+### Tech Stack
+- Frontend: **React** + **TailwindCSS**
+- Backend: **Node.js** + **Express**
+- Database: **MongoDB**
+- Role-based authentication for Admin & Customer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd Hotelwebsite
